@@ -1,4 +1,4 @@
-# The Last Known - Your Exact Website Recreation
+# The Last Known
 
 ## 🎨 Design Match
 
