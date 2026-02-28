@@ -40,7 +40,7 @@
             width: var(--sidebar-width);
             background: var(--bg-cream);
             border-right: 2px solid #e0e0e0;
-            padding: 1.5rem 0;
+            padding: 1rem 0 0.5rem;
             position: fixed;
             height: 100vh;
             overflow-y: auto;
@@ -49,16 +49,16 @@
         }
 
         .sidebar-header {
-            padding: 0 1.5rem 1.5rem;
+            padding: 0 1.5rem 1rem;
             border-bottom: 1px solid #ddd;
         }
 
         .logo {
             background: var(--primary-blue);
             color: white;
-            padding: 0.6rem 1.2rem;
-            border-radius: 25px;
-            font-size: 1.1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 1rem;
             font-weight: 700;
             display: inline-block;
             letter-spacing: -0.5px;
@@ -71,16 +71,16 @@
         }
 
         .nav-section {
-            padding: 1rem 1.5rem;
+            padding: 0.75rem 1.5rem;
             border-bottom: 1px solid #ddd;
         }
 
         .nav-heading {
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: var(--text-gray);
-            margin-bottom: 0.75rem;
+            margin-bottom: 0.5rem;
             font-weight: 400;
             font-style: italic;
         }
@@ -89,8 +89,8 @@
             display: block;
             color: var(--text-dark);
             text-decoration: none;
-            padding: 0.4rem 0;
-            font-size: 0.9rem;
+            padding: 0.35rem 0;
+            font-size: 0.875rem;
             transition: all 0.2s;
             cursor: pointer;
         }
@@ -191,6 +191,54 @@
             padding: 0 1rem;
         }
 
+        .illustration.planet-home {
+            top: 10%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+
+        .illustration.moon-home {
+            top: 15%;
+            right: 10%;
+            animation-delay: 2s;
+        }
+
+        .illustration.rocket-home {
+            bottom: 20%;
+            left: 8%;
+            animation-delay: 1s;
+        }
+
+        .illustration.building-home {
+            bottom: 10%;
+            right: 15%;
+            animation-delay: 3s;
+        }
+
+        .illustration.satellite-home {
+            top: 30%;
+            right: 5%;
+            animation-delay: 1.5s;
+        }
+
+        .illustration.dna-home {
+            bottom: 30%;
+            left: 15%;
+            animation-delay: 2s;
+        }
+
+        .illustration.brain-home {
+            top: 40%;
+            left: 10%;
+            animation-delay: 1.8s;
+        }
+
+        .illustration.network-home {
+            top: 50%;
+            right: 8%;
+            animation-delay: 2.3s;
+        }
+
         .name-title {
             font-family: 'Space Mono', monospace;
             font-size: 3rem;
@@ -255,6 +303,7 @@
             font-weight: 600;
             margin-bottom: 2rem;
             text-align: center;
+            animation: fadeInUp 0.8s ease-out;
         }
 
         .hero-description {
@@ -263,6 +312,7 @@
             color: var(--text-gray);
             line-height: 1.8;
             text-align: center;
+            animation: fadeInUp 1.2s ease-out;
         }
 
         /* ==================== FOCUS SECTION ==================== */
@@ -514,6 +564,26 @@
             padding: 4rem 2rem;
         }
 
+        .back-button {
+            display: inline-block;
+            color: var(--text-gray);
+            text-decoration: none;
+            margin-bottom: 2rem;
+            cursor: pointer;
+            padding: 0.75rem 1.5rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 30px;
+            transition: all 0.2s;
+            font-weight: 700;
+            background: white;
+        }
+
+        .back-button:hover {
+            color: var(--primary-blue);
+            border-color: var(--primary-blue);
+            transform: translateX(-4px);
+        }
+
         .post-header-image {
             width: 100%;
             height: 400px;
@@ -684,7 +754,7 @@
 
             <div class="nav-section">
                 <h3 class="nav-heading">Contact</h3>
-                <a href="mailto:fardeenkhan8599@gmail.com" class="nav-link">Mail</a>
+                <a href="/cdn-cgi/l/email-protection#ea8c8b988e8f8f8481828b84d2dfd3d3aa8d878b8386c4898587" class="nav-link">Mail</a>
                 <a href="https://www.linkedin.com/in/fardeen-khan-093938212/" class="nav-link" target="_blank">LinkedIn</a>
                 <a href="https://medium.com/@fardeenkhan8599" class="nav-link" target="_blank">Medium</a>
                 <a href="https://twitter.com" class="nav-link" target="_blank">Twitter</a>
@@ -696,6 +766,80 @@
             <!-- HOME PAGE -->
             <div id="home-page" class="page active">
                 <section class="hero">
+                    <div class="illustration-container">
+                        <!-- Planet -->
+                        <svg class="illustration planet-home" viewBox="0 0 100 100" width="100" height="100">
+                            <circle cx="50" cy="50" r="35" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <ellipse cx="50" cy="50" rx="60" ry="15" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                        </svg>
+                        
+                        <!-- Moon -->
+                        <svg class="illustration moon-home" viewBox="0 0 100 100" width="80" height="80">
+                            <circle cx="50" cy="50" r="30" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <circle cx="45" cy="35" r="5" fill="var(--primary-blue)"/>
+                            <circle cx="55" cy="50" r="7" fill="var(--primary-blue)"/>
+                            <circle cx="50" cy="65" r="4" fill="var(--primary-blue)"/>
+                        </svg>
+                        
+                        <!-- Rocket -->
+                        <svg class="illustration rocket-home" viewBox="0 0 100 100" width="90" height="90">
+                            <path d="M50 10 L60 40 L50 35 L40 40 Z" fill="var(--primary-blue)"/>
+                            <rect x="45" y="40" width="10" height="30" fill="var(--primary-blue)"/>
+                            <path d="M40 70 L50 90 L60 70" fill="var(--primary-blue)"/>
+                        </svg>
+                        
+                        <!-- Building -->
+                        <svg class="illustration building-home" viewBox="0 0 100 100" width="100" height="100">
+                            <rect x="30" y="20" width="15" height="60" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <rect x="50" y="30" width="20" height="50" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <rect x="35" y="5" width="5" height="15" fill="var(--primary-blue)"/>
+                        </svg>
+
+                        <!-- Satellite -->
+                        <svg class="illustration satellite-home" viewBox="0 0 100 100" width="70" height="70">
+                            <rect x="40" y="45" width="20" height="10" fill="var(--primary-blue)"/>
+                            <rect x="25" y="47" width="15" height="6" fill="var(--primary-blue)"/>
+                            <rect x="60" y="47" width="15" height="6" fill="var(--primary-blue)"/>
+                        </svg>
+
+                        <!-- DNA Helix -->
+                        <svg class="illustration dna-home" viewBox="0 0 100 100" width="85" height="85">
+                            <path d="M30 20 Q40 35 30 50 Q20 65 30 80" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <path d="M70 20 Q60 35 70 50 Q80 65 70 80" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <line x1="30" y1="30" x2="70" y2="30" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                            <line x1="30" y1="50" x2="70" y2="50" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                            <line x1="30" y1="70" x2="70" y2="70" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                        </svg>
+
+                        <!-- Brain/Neural Network -->
+                        <svg class="illustration brain-home" viewBox="0 0 100 100" width="95" height="95">
+                            <circle cx="50" cy="50" r="30" fill="none" stroke="var(--primary-blue)" stroke-width="2"/>
+                            <circle cx="35" cy="40" r="3" fill="var(--primary-blue)"/>
+                            <circle cx="50" cy="35" r="3" fill="var(--primary-blue)"/>
+                            <circle cx="65" cy="40" r="3" fill="var(--primary-blue)"/>
+                            <circle cx="40" cy="55" r="3" fill="var(--primary-blue)"/>
+                            <circle cx="60" cy="55" r="3" fill="var(--primary-blue)"/>
+                            <line x1="35" y1="40" x2="50" y2="35" stroke="var(--primary-blue)" stroke-width="1"/>
+                            <line x1="50" y1="35" x2="65" y2="40" stroke="var(--primary-blue)" stroke-width="1"/>
+                            <line x1="35" y1="40" x2="40" y2="55" stroke="var(--primary-blue)" stroke-width="1"/>
+                            <line x1="65" y1="40" x2="60" y2="55" stroke="var(--primary-blue)" stroke-width="1"/>
+                        </svg>
+
+                        <!-- Network/Graph -->
+                        <svg class="illustration network-home" viewBox="0 0 100 100" width="88" height="88">
+                            <circle cx="30" cy="30" r="5" fill="var(--primary-blue)"/>
+                            <circle cx="70" cy="30" r="5" fill="var(--primary-blue)"/>
+                            <circle cx="50" cy="60" r="5" fill="var(--primary-blue)"/>
+                            <circle cx="30" cy="75" r="5" fill="var(--primary-blue)"/>
+                            <circle cx="70" cy="75" r="5" fill="var(--primary-blue)"/>
+                            <line x1="30" y1="30" x2="70" y2="30" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                            <line x1="30" y1="30" x2="50" y2="60" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                            <line x1="70" y1="30" x2="50" y2="60" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                            <line x1="50" y1="60" x2="30" y2="75" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                            <line x1="50" y1="60" x2="70" y2="75" stroke="var(--primary-blue)" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    
                     <div class="hero-content">
                         <h2 class="name-title">Fardeen Khan</h2>
                         <h3 class="tagline">Solving x Building emerging things around Networks, Life, Intelligence & Consciousness</h3>
@@ -783,12 +927,13 @@
 
             <!-- POST PAGE -->
             <div id="post-page" class="page post-page">
+                <a href="#" class="back-button" id="post-back">← Back to Category</a>
                 <div id="post-content"></div>
             </div>
         </main>
     </div>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         const BLOG_POSTS = [
             {id: 1, title: "Understanding Neural Networks", category: "ai", date: "2024-01-15", type: "blog",
              excerpt: "A deep dive into how neural networks process information.", 
@@ -801,47 +946,7 @@
             {id: 3, title: "Protocol Design Patterns", category: "ai", date: "2024-01-08", type: "protocol",
              excerpt: "Best practices in protocol design.",
              content: `<p>Protocol design requires careful consideration.</p>`,
-             image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80"},
-             {id: 4, title: "Protocol Design Patterns", category: "ai", date: "2024-01-08", type: "blog",
-             excerpt: "Best practices in protocol design.",
-             content: `<p>Protocol design requires careful consideration.</p>`,
-             image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80"},
-             {id: 5, title: "Protocol Design Patterns", category: "ai", date: "2024-01-08", type: "blog",
-             excerpt: "Best practices in protocol design.",
-             content: `<p>Protocol design requires careful consideration.</p>`,
-             image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80"},
-             {id: 6, title: "Protocol Design Patterns", category: "ai", date: "2024-01-08", type: "protocol",
-             excerpt: "Best practices in protocol design.",
-             content: `<p>Protocol design requires careful consideration.</p>`,
-             image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80"},
-              {
-                id: 7,
-                title: "this is test 1",
-                category: "ai",
-                type: "blog",
-                date: "2024-01-15",
-                excerpt: "A deep dive into how neural networks process information and learn patterns from data.",
-                content: `<p>Neural networks are at the heart of modern artificial intelligence.</p><h3>The Basics</h3><p>A neural network consists of layers of interconnected nodes.</p>`,
-                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
-            },
-            {
-                id: 5,
-                title: "this is test 2",
-                category: "ai",
-                date: "2024-01-15",
-                excerpt: "A deep dive into how neural networks process information and learn patterns from data.",
-                content: `<p>Neural networks are at the heart of modern artificial intelligence.</p><h3>The Basics</h3><p>A neural network consists of layers of interconnected nodes.</p>`,
-                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
-            },
-            {
-                id: 6,
-                title: "this is test 3",
-                category: "ai",
-                date: "2026-01-15",
-                excerpt: "A deep dive into how neural networks process information and learn patterns from data.",
-                content: `<p>Neural networks are at the heart of modern artificial intelligence.</p><h3>The Basics</h3><p>A neural network consists of layers of interconnected nodes.</p>`,
-                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
-            },
+             image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80"}
         ];
 
         const THREADS = [
@@ -992,6 +1097,16 @@
                     tab.classList.add('active');
                     document.getElementById(tabName + '-content').classList.add('active');
                 });
+            });
+
+            // Back button from post
+            document.getElementById('post-back').addEventListener('click', (e) => {
+                e.preventDefault();
+                if (currentCategory) {
+                    showCategory(currentCategory);
+                } else {
+                    showPage('home');
+                }
             });
 
             // Mobile menu
