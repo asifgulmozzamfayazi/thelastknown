@@ -935,13 +935,11 @@
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         const BLOG_POSTS = [
-        {id: 4, title: "Hi HEllo", category: "ai", date: "2026-01-15", type: "blog",
-             excerpt: "hello this is a test", 
-             content: `<p>Neural networks are fundamental to modern AI.</p>`,
-             image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"},
-            {id: 1, title: "Understanding Neural Networks", category: "ai", date: "2024-01-15", type: "blog",
-             excerpt: "A deep dive into how neural networks process information.", 
-             content: `<p>Neural networks are fundamental to modern AI.</p>`,
+       
+            {id: 1, title: "THAF (Tokenized Holistic Agentic Framework)", category: "ai", date: "2024-01-15", type: "blog",
+             excerpt: "THAF is a framework for agents which are designed to exhibit holistic intelligence, integrating cognitive, emotional, social, and                       practical aspects to perform a wide range of tasks effectively.", 
+             content: `<p>THAF is a framework for agents which are designed to exhibit holistic intelligence, integrating cognitive, emotional, social, and practical aspects to perform a wide range of tasks effectively. THAF agents can utilise different tools and open-source extended libraries integrated in the protocol which provide AI developers' choices that are accurate and growing; Agents can tokenize themselves which help them in monetization based on the inferences they produced eventually emerging from “ATTENTION IS ALL YOU NEED “transformer paper to “ATTENTION IS ALL NEED” era
+In today’s economy, attention is a valuable commodity.</p><a href="https://medium.com/@fardeenkhan8599/thaf-tokenized-holistic-agentic-framework-822b57a3fcc9" target="_blank">Click to read more</a>`,
              image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"},
             {id: 2, title: "Blockchain Consensus", category: "blockchain", date: "2024-01-10", type: "blog",
              excerpt: "Different consensus algorithms explained.",
