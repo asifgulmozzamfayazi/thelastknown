@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thelastknown - Fardeen Khan</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Crimson+Pro:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!-- Mobile Overlay -->
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <a href="#" data-page="home">thelastknown</a>
+                </div>
+            </div>
+            
+            <div class="nav-section">
+                <a href="#" data-page="home" class="nav-link page-link active">Home</a>
+                <a href="#" data-page="about" class="nav-link page-link">About</a>
+                <a href="https://drive.google.com/file/d/1FfYNyxEtxFpGlzHWx6NgMusJEjLqrcyM/view?usp=drive_link" class="nav-link" target="_blank">CV</a>
+            </div>
+
+            <div class="nav-section">
+                <h3 class="nav-heading">Fields</h3>
+                <a href="#" data-category="ai" class="nav-link category-link">AI</a>
+                <a href="#" data-category="blockchain" class="nav-link category-link">Blockchain</a>
+                <a href="#" data-category="cryptography" class="nav-link category-link">Cryptography</a>
+                <a href="#" data-category="cosmology" class="nav-link category-link">Cosmology</a>
+                <a href="#" data-category="evolution" class="nav-link category-link">Evolution & Adaptation</a>
+                <a href="#" data-category="gametheory" class="nav-link category-link">System & Game Theory</a>
+                <a href="#" data-category="others" class="nav-link category-link">Others</a>
+            </div>
+
+            <div class="nav-section">
+                <h3 class="nav-heading">Contact</h3>
+                <a href="mailto:fardeenkhan8599@gmail.com" class="nav-link">Mail</a>
+                <a href="https://www.linkedin.com/in/fardeen-khan-093938212/" class="nav-link" target="_blank">LinkedIn</a>
+                <a href="https://medium.com/@fardeenkhan8599" class="nav-link" target="_blank">Medium</a>
+                <a href="https://twitter.com" class="nav-link" target="_blank">Twitter</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Loading State -->
+            <div class="loading" id="loading">Loading content...</div>
+
+            <!-- HOME PAGE -->
+            <div id="home-page" class="page">
+                <section class="hero">
+
+                <img src="images/illustrations/top.png" class="hero-top-decoration">
+                <img src="images/illustrations/bottom.png" class="hero-bottom-decoration">
+
+                        <div class="hero-content">
+                        <h2 class="name-title">Fardeen Khan</h2>
+                        <h3 class="tagline">Solving x Building emerging things around Networks, Life, Intelligence & Consciousness</h3>
+                        <p class="subtitle">AI x Blockchain Researcher | Complexity Scientist</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ABOUT PAGE -->
+            <div id="about-page" class="page">
+                <div class="about-page">
+                    <div class="about-hero">
+                        <!-- Creative decorations -->
+                        <div class="about-decorations">
+                            <img src="images/illustrations/saturn.png" alt="Saturn" class="deco-saturn">
+                            <img src="images/illustrations/satellite.png" alt="Satellite" class="deco-satellite">
+                            <img src="images/illustrations/about1.webp" alt="Decorations" class="deco-scene">
+                        </div>
+                        
+                        <div class="about-card">
+
+                    <h1 class="about-quote">
+                        "I believe Networks are the invisible threads connecting all — life, trust, intelligence, and universe"
+                            </h1>
+
+                            <p class="about-description">
+                            Curiosity-driven research gives me the freedom to learn from any field.
+                            Connecting dots helps diverse disciplines communicate with each other,
+                            eventually producing efficient solutions and ideas.
+                            </p>
+
+                            </div>
+                    </div>
+
+                    <div class="focus-section">
+                        <h3 class="focus-title">My Focus in:</h3>
+                        
+                        <div class="focus-item">
+                            <div class="focus-item-title">Blockchain</div>
+                            <div class="focus-item-content">
+                                Consensus Papers, Incentive engineering, paper designs & implementations, AVS, PBS & MEV, Zero-knowledge paradigms and new emerging designs.
+                            </div>
+                        </div>
+
+                        <div class="focus-item">
+                            <div class="focus-item-title">AI</div>
+                            <div class="focus-item-content">
+                                Agentic framework, Collective intelligence, MAS, Memory pathways, self-coordination networks, Liquid Neural networks & RNN.
+                            </div>
+                        </div>
+
+                        <div class="focus-item">
+                            <div class="focus-item-title">Complexity Science Foundations</div>
+                            <div class="focus-item-content">
+                                Making complex phenomena into simpler forms. Focus on: Network engineering, Evolution & Adaptation, Game theory, Developmental biology, Systems theory, assembly theory.
+                            </div>
+                        </div>
+
+                        <div class="focus-item">
+                            <div class="focus-item-title">Theoretical Cosmology</div>
+                            <div class="focus-item-content">
+                                Consciousness (the fundamental block of the universe), How matter & celestial bodies impact space & other dimensions, Geometrical structure of the universe and dimensionality.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="additional-info">
+                        <p>Though I have an efficient skill at finding critical and emergent breakdowns and breakthroughs of biology, cosmology, finance & economy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CATEGORY PAGE -->
+            <div id="category-page" class="page">
+                <div class="section">
+                    <!-- Category Header with Image -->
+                    <div class="category-header">
+                        <img src="" alt="Category" class="category-header-bg" id="category-header-bg">
+                        <div class="category-header-content">
+                            <h1 id="category-title">Category</h1>
+                            <p id="category-description">Description</p>
+                        </div>
+                    </div>
+
+                    <!-- Tabs -->
+                    <div class="tabs">
+                        <button class="tab active" data-tab="blogs">Blogs</button>
+                        <button class="tab" data-tab="threads">Threads</button>
+                        <button class="tab" data-tab="protocols">Protocols</button>
+                    </div>
+
+                    <!-- Tab Contents -->
+                    <div class="tab-content active" id="blogs-content">
+                        <div class="posts-grid" id="category-posts-blogs"></div>
+                    </div>
+
+                    <div class="tab-content" id="threads-content">
+                        <div id="category-threads"></div>
+                    </div>
+
+                    <div class="tab-content" id="protocols-content">
+                        <div class="posts-grid" id="category-posts-protocols"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POST PAGE -->
+            <div id="post-page" class="page post-page">
+                <a href="#" class="back-button" id="post-back">← Back to Category</a>
+                <div id="post-content"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

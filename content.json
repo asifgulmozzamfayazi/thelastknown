@@ -1,0 +1,302 @@
+{
+  "posts": [
+    {
+      "id": 18,
+      "title": "TETRA",
+      "category": "gametheory",
+      "date": "2023-12-30",
+      "type": "blog",
+      "excerpt": "Tetra dex is a onchain orderbook based on multi-stable enmassing decentralized stablecoin usecases and a way for user to trade different kinds of assets through these stablecoins",
+      "content": "<br><h3>INTRODUCTION</h3><p>Currently 159.3 bilion $ worth of stablecoins operating are censor based , from the total industry around 169.7 , even in which collateral based stablecoin DAI from sky ( previously maker) is implanting censor implementation over protocol . Which account in 97 percent of the stablecoin under the censor radar .</p><p>Decentralized stablecoins with multi strategies which give more better yield and returns out and they censorship resistant which lets user operates with more flexibility and oppeness.</p><a href='https://medium.com/@fardeenkhan8599/tetra-0143590e7ea9' target='_blank'>Click to read more</a>",
+      "image": "images/blog/cr4.png"
+    },
+    {
+      "id": 16,
+      "title": "SNARK DESIGN AND THEIR ROLE IN ROLLUPS(HOW YOU CAN BUILD A SETUP TO SCALE TX.ON ETHEREUM & BUILD PRIVACY PRESERVING APPLICATIONS)",
+      "category": "cryptography",
+      "date": "2023-12-30",
+      "type": "blog",
+      "excerpt": "A snark is a type of zero-knowledge proof, which is a cryptographic technique that allows one to prove that a statement is true without revealing any information beyond the validity of the statement. For example, one can prove that they know a password without revealing the password itself.",
+      "content": "<br><p>The front end of snarks is the part of the system that allows users to write programs or statements that can be compiled into snark circuits. A snark circuit is a representation of a computation that can be verified using a snark proof, which is a short and non-interactive proof that the computation was done correctly without revealing any details about it.</p><p>The front end of snarks interacts with high level languages by providing tools and features that enable users to express their programs or statements in a more natural and intuitive way than using low level languages or libraries.</p><a href='https://weufoundation.medium.com/snark-design-and-their-role-in-rollups-e8062c160f99' target='_blank'>Click to read more</a>",
+      "image": "images/blog/cr3.png"
+    },
+    {
+      "id": 15,
+      "title": "ZERO KNOWLEDGE PROOFS AND 🧬 EVOLUTION IN THEIR MODELS.",
+      "category": "cryptography",
+      "date": "2023-12-30",
+      "type": "blog",
+      "excerpt": "As Weu foundation team and Dev's are working and researching around zk proofs and 🆔 infrastructure. As we are building a zk proof based GitHub , where Dev's can contribute being anonymous and get direct incentives to their dashboard.",
+      "content": "<br><p>The same way zk proof has two main properties which are soundness and zero knowledge as the name suggests. Today will go through the whole evolution 🧬 cycle of zk proofs.</p><p>Zero-knowledge proofs are a fascinating topic in cryptography. They are a way of proving that a certain statement is true without revealing any additional information beyond the truth of the statement itself. For example, you can prove that you know the password to a website without actually typing it or showing it to anyone. Zero-knowledge proofs have many applications in security, privacy, and authentication.</p><a href='https://weufoundation.medium.com/evolution-of-models-of-zero-knowledge-proofs-9c92f3540ca7' target='_blank'>Click to read more</a>",
+      "image": "images/blog/cr2.png"
+    },
+    {
+      "id": 14,
+      "title": "FOUNDATIONS OF DATA AVAILABILITY SAMPLING",
+      "category": "cryptography",
+      "date": "2023-12-30",
+      "type": "blog",
+      "excerpt": "In this series of blogs, I will explore the following topics related to data availability and blockchain",
+      "content": "<br><p>The foundation: What is data availability, why is it essential for blockchain security and trustlessness, and what are the challenges and trade-offs of achieving it?</p><p>The why: What are the business drivers and use cases for data availability in blockchain, and how does it support innovation and adoption in various sectors and industries?</p><p>The what: What are the key components and features of data availability in blockchain, and what are the best practices and standards to follow?</p><p>The how: How can you implement data availability solutions in your blockchain environment, and what are the tools and technologies that can help you?</p><p>The solutions: What are some & new solutions of the data availability available in the blockchain market, and how do they compare and contrast?</p><a href='https://weufoundation.medium.com/foundations-of-data-availability-sampling-1a8033d8c9fc' target='_blank'>Click to read more</a>",
+      "image": "images/blog/cr1.png"
+    },
+    {
+      "id": 13,
+      "title": "Proposer Builder separation at Protocol Level",
+      "category": "blockchain",
+      "date": "2023-12-30",
+      "type": "blog",
+      "excerpt": "A blockchain is a data structure that stores a sequence of transactions in a secure and decentralized way.",
+      "content": "<br><p>A blockchain is a data structure that stores a sequence of transactions in a secure and decentralized way. Each transaction is grouped into a block, which contains a unique identifier (hash), a reference to the previous block (previous hash), and other metadata. The blocks are linked together by their hashes, forming a chain of blocks. This chain is verified and maintained by a network of nodes that follow a consensus protocol. The blockchain data structure ensures that the transactions are immutable, transparent, and verifiable.</p><a href='https://weufoundation.medium.com/proposer-builder-separation-at-protocol-level-a73408ae0adf' target='_blank'>Click to read more</a>",
+      "image": "images/blog/bl6.png"
+    },
+    {
+      "id": 12,
+      "title": "SMR | Tendermint ( Partial Synchronous)| PERMISSIONLESS SETTINGS AROUND A CONSENSUS PROTOCOL",
+      "category": "blockchain",
+      "date": "2025-04-13",
+      "type": "blog",
+      "excerpt": "This blog will take you through these questions are SMR, TENDERMINT AND PERMISSIONLESS SETTINGS.",
+      "content": "<br><p>A technique where each node maintains a copy of a state machine, and they need to execute the same sequence of commands on their state machines in order to keep them consistent. For example, a bank system may use SMR to ensure that all the branches have the same balance for each account.</p><p>Let's take a poker game example with Alice, Bob, Carol and Dave.</p><p>One possible creative example around state machine replication technique in blockchain is a story about a group of friends who want to play a game of poker online. Here is how it goes:</p><p>Alice, Bob, Carol, and Dave are four friends who love to play poker. They decide to use a blockchain-based platform to play a game of poker online, without trusting any third-party service. They each download a poker app that implements state machine replication (SMR) to ensure that the game is fair and consistent, even if some of them are dishonest or offline.</p><a href='https://weufoundation.medium.com/consensus-design-around-byzantine-problem-ce75696cd89c' target='_blank'>Click to read more</a>",
+      "image": "images/blog/bl5.png"
+    },
+    {
+      "id": 11,
+      "title": "CONSENSUS DESIGN AROUND BYZANTINE PROBLEM",
+      "category": "blockchain",
+      "date": "2025-04-13",
+      "type": "blog",
+      "excerpt": "A fundamental problem in distributed computing and multi-agent systems is to achieve overall system reliability in the presence of a number of faulty processes.",
+      "content": "<br><p>A fundamental problem in distributed computing and multi-agent systems is to achieve overall system reliability in the presence of a number of faulty processes. This often requires coordinating processes to reach consensus, or agree on some data value that is needed during computation. Example applications of consensus include agreeing on what transactions to commit to a database in which order, state machine replication, and atomic broadcasts. Real-world applications often requiring consensus include cloud computing, clock synchronization, PageRank, opinion formation, smart power grids, state estimation, control of UAVs (and multiple robots/agents in general), load balancing, blockchain, and others.</p><a href='https://weufoundation.medium.com/consensus-design-around-byzantine-problem-ce75696cd89c' target='_blank'>Click to read more</a>",
+      "image": "images/blog/bl4.png"
+    },
+    {
+      "id": 10,
+      "title": "MEV, FLASHBOTS & SUAVE",
+      "category": "blockchain",
+      "date": "2025-04-13",
+      "type": "blog",
+      "excerpt": "Maximal extractable value (MEV) is the maximum profit that a miner or validator can make by including, excluding, or changing the order of transactions in a block on a blockchain network.",
+      "content": "<br><p>Maximal extractable value (MEV) is the maximum profit that a miner or validator can make by including, excluding, or changing the order of transactions in a block on a blockchain network. MEV can affect the security, fairness, and efficiency of the network, as well as the user experience and fees. MEV can be extracted by various methods, such as front-running, back-running, sandwich attacks, and block stuffing. MEV is a phenomenon that exists on any blockchain that supports smart contracts, such as Ethereum. Here we are going to discuss about these aspects in this blog where did mev come from , aspects around flashbots and mev opportunities and how the future looks like with SUAVE……</p><a href='https://weufoundation.medium.com/mev-flashbots-suave-e1e28b6a3a42' target='_blank'>Click to read more</a>",
+      "image": "images/blog/bl3.png"
+    },
+    {
+      "id": 9,
+      "title": "It's All About Trust",
+      "category": "blockchain",
+      "date": "2025-04-13",
+      "type": "blog",
+      "excerpt": "Cryptography, distributed computing and economics are three key aspects of blockchain technology that play a role in improving the existing trust system around blockchains. Here is a brief overview of how they do so:",
+      "content": "<br><p>Cryptography: Cryptography is the science of securing information using mathematical techniques. Cryptography enables blockchains to protect the data stored in the ledger from unauthorized access, modification or deletion. Cryptography also allows blockchains to verify the identity and authenticity of the participants and transactions in the network. For example, blockchains use cryptographic hash functions to generate unique identifiers for each block and transaction, and digital signatures to ensure that only the rightful owners can spend their coins or tokens.</p><p>Distributed computing: Distributed computing enables blockchains to operate in a decentralized manner, without relying on a central authority or intermediary. Distributed computing also allows blockchains to achieve consensus among the nodes in the network, which means that they can agree on the state and validity of the ledger. For example, blockchains use various consensus algorithms, such as proof-of-work, proof-of-stake, proof-of-authority, etc., to coordinate the nodes and prevent malicious attacks or forks.</p><a href='https://weufoundation.medium.com/its-all-about-trust-f8abc3335e5f' target='_blank'>Click to read more</a>",
+      "image": "images/blog/bl2.png"
+    },
+    {
+      "id": 8,
+      "title": "Proof of stake consensus survey",
+      "category": "blockchain",
+      "date": "2025-04-13",
+      "type": "blog",
+      "excerpt": "Proof of stake (PoS) is a type of consensus mechanism that uses the stake of the participants, or validators, to secure the network and produce new blocks in the blockchain. Validators need to deposit a certain amount of coins, or tokens",
+      "content": "<br><h3>Proof of stake consensus survey</h3><h3>Proof of work</h3><p>Proof of work (PoW) is a type of consensus mechanism that uses the computational power of the participants, or miners, to secure the network and produce new blocks in the blockchain. Miners need to solve a hard mathematical puzzle, or proof-of-work, to create a valid block and receive a reward in crypto. The more computational power a miner has, the higher the chance they have to solve the puzzle and create the next block. Miners compete with each other to find the solution, which ensures that the network is decentralized and resistant to attacks.</p><a href='https://medium.com/@fardeenkhan8599/proof-of-stake-consensus-survey-62a3f11068df' target='_blank'>Click to read more</a>",
+      "image": "images/blog/bl1.png"
+    },
+    {
+      "id": 7,
+      "title": "KOBOTO AI is a separate custom landscape for Agents^Agent developers to build their agentic systems while having an ephemeral market to trade/execute/optimize intelligence together.",
+      "category": "ai",
+      "date": "2025-04-13",
+      "type": "protocol",
+      "excerpt": "The Koboto network is the first network capable of producing actions in multi-dimensional states while taking heterogenuity on network level and context awareness at the agent level in account.",
+      "content": "<br><h3>INTRODUCTION</h3><p>Koboto is a Self-coordinated Agentic network for Heterogenous systems. An agentic network with dynamic and modular compute, verifiability and access of AI agents while providing heterogenous environment for users. Koboto.ai is a modular & heterogenous AI network compose with peer to peer abstract intelligent incentive driven agent market to produce multi-interactive, inference aggregator and intent based actions while stacking adaptive compute, verifiability and access of heterogenous states. Heterogeneity brings flexibility and fast adaptability of agencies participating in the environment. Thus, koboto network solve it by introducing heterogenous systems equipped with heterogenous reputation, heterogenous states, heterogenous resources, heterogenous compute and heterogenous calls. This uphold to any Agentic system & AI network will their intents to be achieved & implemented in best, open fast , doors that will bring massive paradigm shifts for humans & agents that wants cheap and in a verifiable way.</p><a href='https://debonair-collision-a17.notion.site/190c6ecedf5b808492ffd0da0cf96afc?v=190c6ecedf5b813c80a1000c04073b56' target='_blank'>Click to read more</a>",
+      "image": "images/paper/ai1.png"
+    },
+    {
+      "id": 6,
+      "title": "Scaling Decentralized Intelligence",
+      "category": "ai",
+      "date": "2025-04-13",
+      "type": "blog",
+      "excerpt": "Intelligence production has many substrate like how it is being produced , with what resources ; with what topology ; with what extention of diversified producers",
+      "content": "<br><p>Intelligence production has many substrate like how it is being produced , with what resources ; with what topology ; with what extention of diversified producers ; with what technique to optimize or aggregate it and the list goes on from general training to fine-tuning to get feedbacks from inferential models to fit back in to produced one more better & bigger models satisfiying certain benchmarks in coding , language , maths , text generation , vision & so on .</p><p>In the current paradigm of open sourcing the model weights where the bottelnecks for companies to general ML peeps is the cost to train the models is in millions of $ , most of the ml community is been shifting to the post training era of models and generally towards fine tuning models with which field they are interested in , prompt strategies , agentic frameworks , data curation and so on . Meanwhile companies and open source projects seemlessly focusing on model hosting platform (FT models as well) , datasets providers , ML tooling , decentralised / heterogenous compute infrastructure providers , federated learning (where individuals share only models weights not the raw data ) , a few communities & projects focusing on merging Crypto x AI where it's a merge of decentralised intelligence backed by economic trust foundation where projects like coordination networks , intelligence producing networks , Agents & Agentic frameworks , Data DAOs across various tasks alignment from regression to classification to generative AI coming to fruitation solving tasks around Defi , Asset management , Market movements , prediction , MEV , crypto specific FT models for text generation , NFTs to even extending arms towards solving things for science like protein folding , disease pre-identification , personalised medicines , skin disease classification ; Agentic ontologies for companies , threat detection in code and physical infrastructure , embodied AI and so on…….</p><a href='https://medium.com/@engramnetwork/decentralized-inference-networks-cues-5daebdcd84ae' target='_blank'>Click to read more</a>",
+      "image": "images/blog/ai6.png"
+    },
+    {
+      "id": 5,
+      "title": "Self-Coordination Network for MAS",
+      "category": "ai",
+      "date": "2024-01-15",
+      "type": "blog",
+      "excerpt": "The ability to form memory is the foundation for accumulating knowledge and making reasoning judgments.",
+      "content": "<br><p>AI x CRYPTO is at a very nascent stage where a system which can produce intelligence and bring automation is collaborating with a distributed ledger secured and build around cryptography & Blockchain. Where Machine-generated intelligence is becoming a valuable resource and a popular commodity. Existing blockchain initiatives that attempt to solve the machine intelligence problem are sub-optimal.</p><p>Building at the intersection brings massive impact in terms of doing incentive engineering & bringing game theory to make every contributor be a direct participant (whether is a compute provider, verifiability client, model creator, datasets creators) and receives incentives in the sense for their contribution. One major thing is providing the inference consumers with the best & desired answers or even more near the ground truth.</p><a href='https://medium.com/@engramnetwork/self-coordination-network-for-mas-b1b69520d472' target='_blank'>Click to read more</a>",
+      "image": "images/blog/ai5.png"
+    },
+    {
+      "id": 4,
+      "title": "From Human Effort to AI Efficiency: How LLMs & hardware acceleration Optimize Energy Consumption",
+      "category": "ai",
+      "date": "2024-01-15",
+      "type": "blog",
+      "excerpt": "Though we see AI consuming a lot of energy as in terms of running, training, fine-tuning & having an inference out through the processing units.",
+      "content": "<br><p>But when we see energy in broader terms it tends to save a lot of energy in terms of AI models consumerism which are the output of energy, compute and a vast variety of people that design intelligence.</p><p>Automating anything reduces energy consumption when we see either a human working on something or even replacing them with robots for hard labour or task assist which we are already doing eventually gives more liberation of time, energy and space to live in.</p><a href='https://medium.com/@engramnetwork/from-human-effort-to-ai-efficiency-how-llms-hardware-acceleration-optimize-energy-consumption-6cdb475c6a45' target='_blank'>Click to read more</a>",
+      "image": "images/blog/ai4.png"
+    },
+    {
+      "id": 3,
+      "title": "Desire To Achieve AGI & Produce Multi Agentic systems",
+      "category": "ai",
+      "date": "2024-01-15",
+      "type": "blog",
+      "excerpt": "The way most of the AI Companies||ML scientists & engineers are looking to produce intelligence is by training the models through vast datasets buildup with RLHF, botnets...",
+      "content": "<br><h3>INTRO</h3><p>The way most of the AI Companies||ML scientists & engineers are looking to produce intelligence is by training the models through vast datasets buildup with RLHF, botnets or by training over synthetic data and trying to build multi-agents systems or workflows by training agents how to leverage variety of tools. But there is more to it where we have to look at intelligence in a broader way by learning through various means such as evolutionary biology, Collective intelligence, the relation between quantum qualia & classical state, Coordination games mixed RL or game theoretics, Emergence by combining them with how we are building the current intelligence by leveraging compute, various tools, diverse datasets with verifiability to be present along with that .</p><p><strong>These all can be combined & coordinated & incentivized through an industry which is diverse in designed which accounts contributors, data providers, diverse group of scientists, consumers and service providers to achieve AGI & multi agent systems all together.</strong></p><a href='https://medium.com/@engramnetwork/desire-to-achieve-agi-produce-multi-agentic-systems-f53f3a93cced' target='_blank'>Click to read more</a>",
+      "image": "images/blog/ai3.png"
+    },
+    {
+      "id": 2,
+      "title": "A Thesis on the Neural nets abstraction layer and how Koboto.ai building an inference marketplace for multi-interactive and intent based agents.",
+      "category": "ai",
+      "date": "2024-01-15",
+      "type": "blog",
+      "excerpt": "We going to talk the current solution in the market and how they are setting themselves around WEB2, web3, or crypto economic games creates layers to verify computation",
+      "content": "<br><p>This thesis is exclusively written for exploring current solution in the AI and think & design around Koboto.ai, which is an inference marketplace for interactive and intent based agents. Few terminologies used in this thesis are new such as neural nets abstraction layer & harmonized Equilibria.</p><a href='https://medium.com/@engramnetwork/a-thesis-on-the-neural-nets-abstraction-layer-and-how-koboto-ai-0e21925664ac' target='_blank'>Click to read more</a>",
+      "image": "images/blog/ai2.png"
+    },
+    {
+      "id": 1,
+      "title": "THAF (Tokenized Holistic Agentic Framework)",
+      "category": "ai",
+      "date": "2024-01-15",
+      "type": "blog",
+      "excerpt": "THAF is a framework for agents which are designed to exhibit holistic intelligence, integrating cognitive, emotional, social, and practical aspects to perform a wide range of tasks effectively.",
+      "content": "<br><p>THAF agents can utilise different tools and open-source extended libraries integrated in the protocol which provide AI developers' choices that are accurate and growing; Agents can tokenize themselves which help them in monetization based on the inferences they produced eventually emerging from 'ATTENTION IS ALL YOU NEED' transformer paper to 'ATTENTION IS ALL NEED' era In today's economy, attention is a valuable commodity.</p><a href='https://medium.com/@fardeenkhan8599/thaf-tokenized-holistic-agentic-framework-822b57a3fcc9' target='_blank'>Click to read more</a>",
+      "image": "images/blog/aithar.png"
+    }
+  ],
+  "threads": [
+    {
+      "id": 18,
+      "category": "others",
+      "date": "2024-02-15",
+      "content": "You might be stuck at a level where you want to gain a lot of money , fame and pride just like most of the 🐑. Or  You might be stuck at the level where you want to grow your companies at great heights like uber , Google or Ethereum.",
+      "link": "https://x.com/thelastknown_/status/1690852342420353024"
+    },
+    {
+      "id": 17,
+      "category": "others",
+      "date": "2024-02-15",
+      "content": "Being neutral is what I learn even the reality or truth we are in search of is optimistic or pessimistic",
+      "link": "https://x.com/thelastknown_/status/1743720114913243513"
+    },
+    {
+      "id": 16,
+      "category": "others",
+      "date": "2024-02-15",
+      "content": "Everything here is interconnected in a way how they behaves and coordinates with human nature and tendency. We all might not believe in science and gods but we do in money.",
+      "link": "https://x.com/thelastknown_/status/1745250683685835038"
+    },
+    {
+      "id": 15,
+      "category": "evolution",
+      "date": "2024-02-15",
+      "content": "The sun - The energy source 🌞 but the thing is sun gives out always low entropic energy and majorily life plays a part where it converts low entropy into high entropy.",
+      "link": "https://x.com/thelastknown_/status/1675468038563569665"
+    },
+    {
+      "id": 14,
+      "category": "evolution",
+      "date": "2024-02-15",
+      "content": "Humans slowly choose to be 'selfish' they are not born 'selfish'.",
+      "link": "https://x.com/thelastknown_/status/1792563231141101721"
+    },
+    {
+      "id": 13,
+      "category": "evolution",
+      "date": "2024-02-15",
+      "content": "The problem is how we understand emergence or transmutation either in non-living or living or between them is if we calculate it through mathematics or rationale how it's going to change itself through criticality",
+      "link": "https://x.com/thelastknown_/status/1788468673931251867"
+    },
+    {
+      "id": 12,
+      "category": "cosmology",
+      "date": "2024-02-15",
+      "content": "In 2007 , when we detected the rippling effect on space&time due to 2 neutron stars collision 💥 . The effect was a 1000th time of a proton on space&time.",
+      "link": "https://x.com/thelastknown_/status/1699604064399483041"
+    },
+    {
+      "id": 11,
+      "category": "blockchain",
+      "date": "2024-02-15",
+      "content": "RWA (Real World Assets)  - DEFI^ON^RWA Assets that exist in the physical world and have economic value, such as real estate, art, commodities, invoices, etc. can be tokenized on-chain. Currently this market is most of accessible by asset managers.",
+      "link": "https://x.com/thelastknown_/status/1699604064399483041"
+    },
+    {
+      "id": 10,
+      "category": "blockchain",
+      "date": "2024-02-15",
+      "content": "Consensus it's like a classroom solving a math problem - if everyone gets the same answer, it's probably correct. In blockchain, all computers (nodes) agree on the validity of transactions. Here is the link of the blog about consensus design",
+      "link": "https://x.com/thelastknown_/status/1702876600734285960"
+    },
+    {
+      "id": 9,
+      "category": "blockchain",
+      "date": "2024-02-15",
+      "content": "Trust is blockchain's core A tech that can do more A new way of cooperation Across the world and nation",
+      "link": "https://x.com/thelastknown_/status/1727309954460332397"
+    },
+    {
+      "id": 8,
+      "category": "blockchain",
+      "date": "2024-02-15",
+      "content": "It's all about MEV....",
+      "link": "https://x.com/thelastknown_/status/1741375264498872479"
+    },
+    {
+      "id": 7,
+      "category": "blockchain",
+      "date": "2024-02-15",
+      "content": "MEV is the value from changing transactions. But it can also cause problems and frictions. For the users, the validators, and the network's conditions . Check out how  @flashbotsmev  team is trying to make changes through their work around PBS.",
+      "link": "https://x.com/thelastknown_/status/1742293205561811306"
+    },
+    {
+      "id": 6,
+      "category": "ai",
+      "date": "2024-02-15",
+      "content": "A computer could never be sentient. It's only a machine that produces a complex pattern of electrical signals mediated by silicon, said a walking bag of chemicals as it produced a complex pattern of electrical signals mediated by sodium / potassium ions",
+      "link": "https://x.com/thelastknown_/status/1627426733820608513"
+    },
+    {
+      "id": 5,
+      "category": "ai",
+      "date": "2024-02-15",
+      "content": "Concious species :  1. Thoughts 2. Dreams 3. Subconscious 4. Active neuron synapses information Output",
+      "link": "https://x.com/thelastknown_/status/1727184511346282755"
+    },
+    {
+      "id": 4,
+      "category": "ai",
+      "date": "2024-02-15",
+      "content": "Inference verifiability and computational & community around inference + agent marketplace need a standardization of their ethics .",
+      "link": "https://x.com/thelastknown_/status/1815377618352349615"
+    },
+    {
+      "id": 3,
+      "category": "gametheory",
+      "date": "2024-02-15",
+      "content": "A major mind blogging thing around heterogeneous risk and reward system that a human can bear.",
+      "link": "https://x.com/thelastknown_/status/1611427383738830857"
+    },
+    {
+      "id": 2,
+      "category": "gametheory",
+      "date": "2024-02-20",
+      "content": "From creating zero sum positive games, to design better crypto economic game theory, from designing a incentive engineered model, to build Blockchain & defi & MEV structure  I came to a realisation 3 things are very important inorder to design the model.",
+      "link": "https://x.com/thelastknown_/status/1742984220027568399"
+    },
+    {
+      "id": 1,
+      "category": "gametheory",
+      "date": "2024-02-18",
+      "content": "Like an engine, a clock harnesses the flow of energy to do work, producing exhaust in the process. Engines use energy to propel; clocks use it to tick.",
+      "link": "https://x.com/thelastknown_/status/1807037867165614461"
+    }
+  ]
+}
