@@ -919,6 +919,19 @@ body {
     /* text-align: justify; */
 
 }
+
+.category-header-content h1 {
+        font-size: 8vw;
+        margin-bottom: 1rem;
+    }
+
+    .category-header-content p {
+        font-size: 3vw;
+    }
+
+    .category-header-content {
+        padding: 0 1.5rem;
+    }
 .post-title-main{
     font-family: 'Space Mono', monospace;
     font-size: 2.2rem;
