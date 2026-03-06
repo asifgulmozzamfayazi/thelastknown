@@ -165,7 +165,7 @@ function showPost(postId) {
                 <span class="post-category">${CATEGORIES[post.category]}</span>
                 <span>${post.date}</span>
             </div>
-            <h1 class="name-title">${post.title}</h1>
+            <h1 class="post-title-main">${post.title}</h1>
             <p class="subtitle">${post.excerpt}</p>
             <div class="post-body">${post.content}</div>
         </article>`;
