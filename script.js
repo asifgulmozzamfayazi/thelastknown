@@ -137,7 +137,7 @@ function showCategory(category) {
     
     const Papers = BLOG_POSTS.filter(p => p.category === category && p.type === 'paper');
     document.getElementById('category-posts-Papers').innerHTML = Papers.length > 0 ?
-        Papers.map(createPostCard).join('') : '<p style="color:#666; padding: 2rem;">No Papers yet.</p>';
+        Papers.map(createPostCard).join('') : '<p style="color:#666; padding: 2rem;">No papers yet.</p>';
     
     // Add click handlers to post cards
     document.querySelectorAll('.post-card').forEach(c => {
