@@ -20,7 +20,7 @@ const CATEGORY_INFO = {
     },
     cryptography: {
         title: "Cryptography",
-        description: "Zero-knowledge proofs, encryption protocols, cryptographic primitives, and privacy-preserving technologies.",
+        description: "Zero-knowledge proofs, encryption Papers, cryptographic primitives, and privacy-preserving technologies.",
         image: "images/headers/cryptography.png"
     },
     cosmology: {
@@ -135,9 +135,9 @@ function showCategory(category) {
     document.getElementById('category-threads').innerHTML = threads.length > 0 ?
         threads.map(createThreadCard).join('') : '<p style="color:#666; padding: 2rem;">No threads yet.</p>';
     
-    const protocols = BLOG_POSTS.filter(p => p.category === category && p.type === 'protocol');
-    document.getElementById('category-posts-protocols').innerHTML = protocols.length > 0 ?
-        protocols.map(createPostCard).join('') : '<p style="color:#666; padding: 2rem;">No protocols yet.</p>';
+    const Papers = BLOG_POSTS.filter(p => p.category === category && p.type === 'paper');
+    document.getElementById('category-posts-Papers').innerHTML = Papers.length > 0 ?
+        Papers.map(createPostCard).join('') : '<p style="color:#666; padding: 2rem;">No Papers yet.</p>';
     
     // Add click handlers to post cards
     document.querySelectorAll('.post-card').forEach(c => {
