@@ -461,16 +461,16 @@ body {
 
 .category-header-content h1 {
     font-family: 'Space Mono', monospace;
-    font-size: 3.5rem;
+    font-size: 4vw;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     color: white;
     text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
 }
 
 .category-header-content p {
     font-family: 'Space Mono', monospace;
-    font-size: 1.1rem;
+    font-size: 1.2vw;
     line-height: 1.5;
     color: white;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
@@ -828,11 +828,12 @@ body {
     }
 
     .category-header-content h1 {
-        font-size: 2rem;
+        font-size: 4vw;
+        margin-bottom: 1.5rem;
     }
 
     .category-header-content p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .category-header-content {
