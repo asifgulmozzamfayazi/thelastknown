@@ -547,6 +547,9 @@ body {
 
 .post-content {
     padding: 1.5rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
 }
 
 .post-meta {
@@ -667,6 +670,26 @@ body {
     object-fit: cover;
     border-radius: 16px;
     margin-bottom: 2rem;
+}
+.post-title-main{
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    font-weight:700;
+    line-height:1.2;
+    margin:1rem 0;
+
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.subtitle{
+
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+.post-body{
+    text-align: justify;
 }
 
 .post-body {
@@ -831,6 +854,15 @@ body {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+    .subtitle{
+
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+.post-body{
+    text-align: justify;
+}
 }
 
 @media (max-width: 480px) {
@@ -873,6 +905,26 @@ body {
 .about-description{
 
     font-size:0.9rem;
+    /* text-align: justify; */
 
+}
+.post-title-main{
+    font-family: 'Space Mono', monospace;
+    font-size: 2.2rem;
+    font-weight:700;
+    line-height:1.2;
+    margin:1rem 0;
+    /* text-align: justify; */
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.subtitle{
+
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: justify;
+}
+.post-body{
+    text-align: justify;
 }
 }
