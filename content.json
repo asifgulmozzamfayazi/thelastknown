@@ -1,16 +1,6 @@
 {
   "posts": [
     {
-      "id": 19,
-      "title": "TEST",
-      "category": "ai",
-      "date": "2023-12-30",
-      "type": "paper",
-      "excerpt": "Tetra dex is a onchain orderbook based on multi-stable enmassing decentralized stablecoin usecases and a way for user to trade different kinds of assets through these stablecoins",
-      "content": "<br><h3>INTRODUCTION</h3><p>Currently 159.3 bilion $ worth of stablecoins operating are censor based , from the total industry around 169.7 , even in which collateral based stablecoin DAI from sky ( previously maker) is implanting censor implementation over protocol . Which account in 97 percent of the stablecoin under the censor radar .</p><p>Decentralized stablecoins with multi strategies which give more better yield and returns out and they censorship resistant which lets user operates with more flexibility and oppeness.</p><a href='https://medium.com/@fardeenkhan8599/tetra-0143590e7ea9' target='_blank'>Click to read more</a>",
-      "image": "images/blog/cr4.png"
-    },
-    {
       "id": 18,
       "title": "TETRA",
       "category": "gametheory",
