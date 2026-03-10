@@ -1,6 +1,16 @@
 {
   "posts": [
     {
+      "id": 1773144523459,
+      "title": "Misinterpretation as Noise in Neural nets",
+      "category": "ai",
+      "date": "2026-03-10",
+      "type": "blog",
+      "excerpt": "Well when give an query to llm as the environment interacting itself as a node didnt understand the data has build his beliefs on leads to invariant noisy question leading to have improved RL state as it get aware and update its state in a more deeper way though effecting the output needed at that particular latency ",
+      "content": "<a href=\"https://debonair-collision-a17.notion.site/Misinterpresentation-as-noise-in-neural-nets-1fac6ecedf5b807285a2f04d6d0a5fc0?source=copy_link\" target=\"_blank\">Click to read more....</a>",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+    },
+    {
       "id": 18,
       "title": "TETRA",
       "category": "gametheory",
